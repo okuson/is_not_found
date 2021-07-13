@@ -21,9 +21,5 @@ function is_not_found($url)
 
     curl_close($ch);
 
-    if ($is_error) {
-        return true;
-    } else {
-        return false;
-    }
+    return $is_error;
 }
