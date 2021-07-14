@@ -1,8 +1,8 @@
 <?php
 
 /**
- * ‚S‚O‚S‚©”Û‚©‚ð•Ô‚·B
- * @param $url ‘ÎÛ‚ÌURL
+ * ï¼”ï¼ï¼”ã‹å¦ã‹ã‚’è¿”ã™ã€‚
+ * @param $url å¯¾è±¡ã®URL
  * @return bool
  */
 function is_not_found($url)
