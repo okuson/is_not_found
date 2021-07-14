@@ -9,7 +9,8 @@ function is_not_found($url)
 {
     $ch = curl_init($url);
 
-    curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_NOBODY, true);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_exec($ch);
 
     $info = curl_getinfo($ch);
